@@ -3,6 +3,8 @@ PLAN: "feat: audio.PCM — the audio value shared by media, stt and tts"
 TAG: v0.1.0
 EXECUTOR: jules
 REVIEWER: none
+STATUS: running
+SESSION: 11126279561605079163
 ---
 
 > This plan is dispatched via the CodeJob workflow. See skill: agents-workflow.
