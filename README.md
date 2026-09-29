@@ -1,11 +1,12 @@
 # audio
+<img src="docs/img/badges.svg">
 
 The audio value shared by the webtyp voice pieces. `audio.PCM` is a piece of uncompressed
 sound: float32 samples in [-1, 1], with a sample rate and a channel count. That is the shape
 the browser's Web Audio API uses, so no conversion is needed at the edge.
 
-> **STATUS (remove this note when v0.1.0 is published):** specified in `docs/PLAN.md`, not
-> implemented yet. Voice ships in version 2 of the agent, and version 1 is text only.
+> Voice ships in version 2 of the agent; version 1 is text only. This type is declared now so
+> the voice pipeline is wired from the start.
 
 ## Getting started
 
